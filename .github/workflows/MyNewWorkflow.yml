@@ -9,8 +9,8 @@ on:
 
 jobs:
   build-and-test:
-  runs-on: ubuntu-latest
-  steps:
+    runs-on: ubuntu-latest
+    steps:
       - name: Checkout our code
         uses: actions/chechout@v4
       - name: Setup Dotnet
